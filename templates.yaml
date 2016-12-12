@@ -1,0 +1,4 @@
+welcome: Welcome to the St Paul's Road / Ramsey Walk bus station. If you tell me the bus number I will tell you when it comes. Ready?
+bus_schedule: the bus {{bus_number}} arrives in {{minutes}} minutes.
+no_bus: there are no {{bus_number}} bus scheduled, retry later.
+repeat_bus_number: Can you please repeat the bus number?
