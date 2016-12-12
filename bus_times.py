@@ -18,7 +18,6 @@ def get_bus_time(bus_number):
     if bus_number == None:
         return render_template('repeat_bus_number')
 
-    print bus_number
     response = urllib2.urlopen(API_BASE + "/" + BUS_STOP + "/Arrivals?mode=bus&line=" + str(bus_number))
     times = json.load(response)
     round_msg = render_template('no_bus', bus_number=bus_number)
