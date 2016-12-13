@@ -1,0 +1,10 @@
+GetBusTimes what time does the {bus_number} arrives
+GetBusTimes when the {bus_number} arrives
+GetBusTimes when the bus {bus_number} arrives
+GetBusTimes where is the bus {bus_number}
+GetBusTimes where is the {bus_number}
+GetBusTimes when the {bus_number} comes
+GetBusTimes when the {bus_number} arrives
+GetBusTimes when is coming the {bus_number}
+GetBusTimes what time is coming the {bus_number}
+GetBusTimes what time the {bus_number} stops
