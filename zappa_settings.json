@@ -1,0 +1,9 @@
+
+{
+    "dev": {
+        "app_function": "bus_times.app",
+        "s3_bucket": "zappa-alexa-bus-tims",
+        "manage_roles": false,
+        "role_name": "ZappaLambdaExecution"
+    }
+}
