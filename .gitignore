@@ -3,3 +3,9 @@
 *.bak
 
 .git
+.serverless
+.npmignore
+
+
+# virtual environment
+venv
