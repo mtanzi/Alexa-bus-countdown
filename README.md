@@ -22,14 +22,6 @@ We also need to install [flask-ask](https://github.com/johnwheeler/flask-ask) wh
 $ pip install flask-ask
 ```
 
-once all the dependencies are installed we can run the application.
-
-```bash
-$ python bus_times.py
-  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-  * Restarting with stat
-```
-
 ## Test
 Once the application is up and running we can either decide to test it locally and set up a tunnel or to deploy the application directly in AWS.
 
@@ -52,6 +44,14 @@ Forwarding                    https://50e84cf8.ngrok.io -> localho
 Connections                   ttl     opn     rt1     rt5     p50
                               0       0       0.00    0.00    0.00
 
+```
+
+Once the tunnel is set we can start the application locally.
+
+```bash
+$ python bus_times.py
+  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+  * Restarting with stat
 ```
 
 ### Deploy in AWS
